@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: 'Syne', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* 3 Core Colors + 1 Deliberate Accent (R-29) */
+  --color-paper: #fdfcff;
+  --color-obsidian: #111318;
+  --color-container-light: #f1f3f8;
+  --color-container-high-light: #e5e8f0;
+  --color-container-dark: #181a20;
+  --color-container-high-dark: #1f222a;
+
+  --color-ink-light: #111318;
+  --color-ink-muted-light: #44474f;
+  --color-ink-dark: #f1f3f8;
+  --color-ink-muted-dark: #9ca3af;
+
+  --color-rule-light: #d8dce6;
+  --color-rule-dark: #262932;
+
+  /* Deliberate Accent: Register Cobalt */
+  --color-cobalt: #005ac1;
+  --color-cobalt-hover: #00489e;
+  --color-cobalt-dark: #a8c7fa;
+  --color-cobalt-container-light: #d8e2ff;
+  --color-cobalt-container-dark: #004881;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono,
+.tabular-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Keyboard Accessibility Focus Indicator (R-32) */
+*:focus-visible {
+  outline: 2px solid #005ac1;
+  outline-offset: 2px;
+}
+
+.dark *:focus-visible {
+  outline: 2px solid #a8c7fa;
+  outline-offset: 2px;
+}
+
+/* Identity Motif: Serrated Thermal Receipt Edges */
+.receipt-serrated-top {
+  background-image: linear-gradient(135deg, transparent 50%, currentColor 50%),
+    linear-gradient(225deg, transparent 50%, currentColor 50%);
+  background-position: top;
+  background-size: 12px 6px;
+  background-repeat: repeat-x;
+}
+
+.receipt-serrated-bottom {
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(315deg, transparent 50%, currentColor 50%);
+  background-position: bottom;
+  background-size: 12px 6px;
+  background-repeat: repeat-x;
+}
+
+/* Choreographed Motion Keyframes (MOTION 3, R-19) */
+@keyframes receiptPrint {
+  0% {
+    opacity: 0;
+    transform: translateY(-18px) scale(0.985);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes stageSwitch {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.992);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  70% {
+    transform: scale(1.55);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.55);
+    opacity: 0;
+  }
+}
+
+.animate-receipt-print {
+  animation: receiptPrint 0.36s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-stage-switch {
+  animation: stageSwitch 0.28s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-hotspot-ring {
+  animation: pulseRing 2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+/* Browser Surfaces Theming (Craft Floor: Caret, Selection, Scrollbars) */
+::selection {
+  background-color: #005ac1;
+  color: #ffffff;
+}
+
+.dark ::selection {
+  background-color: #a8c7fa;
+  color: #001a41;
+}
+
+* {
+  caret-color: #005ac1;
+}
+
+.dark * {
+  caret-color: #a8c7fa;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f3f8;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #181a20;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d8dce6;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #262932;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #44474f;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-receipt-print,
+  .animate-stage-switch,
+  .animate-hotspot-ring,
+  .animate-spin {
+    animation: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.001s !important;
+  }
+}
+

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "rec-latte",
+    "productId": "prod-latte",
+    "ingredients": [
+      {
+        "materialId": "mat-arabica",
+        "amount": 18
+      },
+      {
+        "materialId": "mat-milk",
+        "amount": 180
+      },
+      {
+        "materialId": "mat-cup",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "rec-macchiato",
+    "productId": "prod-macchiato",
+    "ingredients": [
+      {
+        "materialId": "mat-arabica",
+        "amount": 18
+      },
+      {
+        "materialId": "mat-milk",
+        "amount": 160
+      },
+      {
+        "materialId": "mat-caramel",
+        "amount": 20
+      },
+      {
+        "materialId": "mat-cup",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "rec-espresso",
+    "productId": "prod-espresso",
+    "ingredients": [
+      {
+        "materialId": "mat-arabica",
+        "amount": 18
+      },
+      {
+        "materialId": "mat-cup",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "rec-matcha",
+    "productId": "prod-matcha",
+    "ingredients": [
+      {
+        "materialId": "mat-matcha",
+        "amount": 15
+      },
+      {
+        "materialId": "mat-milk",
+        "amount": 180
+      },
+      {
+        "materialId": "mat-cup",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "rec-croissant",
+    "productId": "prod-croissant",
+    "ingredients": [
+      {
+        "materialId": "mat-croissant",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "rec-cinnamon",
+    "productId": "prod-cinnamon",
+    "ingredients": [
+      {
+        "materialId": "mat-cinnamon",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "rec-brownie",
+    "productId": "prod-brownie",
+    "ingredients": [
+      {
+        "materialId": "mat-brownie",
+        "amount": 1
+      }
+    ]
+  }
+]

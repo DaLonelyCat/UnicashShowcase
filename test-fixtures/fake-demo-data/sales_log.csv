@@ -1,0 +1,4 @@
+ID,Order ID,Date,Time,Timestamp,Customer,Item,Category,Qty,Unit Price,Total Paid,Unit Cost (HPP),Total Cost (HPP),Gross Profit,Payment Method,Notes
+"sale-1013-01","ORD-135217","2026-10-13","16:15:00","2026-10-13T09:15:00Z","Customer","Unknown Item","Coffee",1,0,0,0,0,0,"qris",""
+"sale-1013-02","ORD-135217","2026-10-13","16:42:00","2026-10-13T09:42:00Z","Customer","Unknown Item","Coffee",1,0,0,0,0,0,"cash",""
+"sale-1013-03","ORD-135217","2026-10-13","17:20:00","2026-10-13T10:20:00Z","Customer","Unknown Item","Coffee",1,0,0,0,0,0,"qris",""

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="unicatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181a20" />
+      <stop offset="100%" stop-color="#0c0d12" />
+    </linearGradient>
+    <linearGradient id="unicatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8c7fa" />
+      <stop offset="60%" stop-color="#3884ff" />
+      <stop offset="100%" stop-color="#005ac1" />
+    </linearGradient>
+    <linearGradient id="earAccent" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff7597" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ff94b8" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="coinGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd56b" />
+      <stop offset="100%" stop-color="#ff9e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Container with Rounded Squircle -->
+  <rect width="128" height="128" rx="32" fill="url(#unicatBg)" stroke="#262932" stroke-width="2" />
+
+  <!-- Outer Cat Silhouette with Ears -->
+  <path
+    d="M 28 44 
+       L 38 18 
+       C 39 15, 43 16, 45 19 
+       L 55 35 
+       C 61 33, 67 33, 73 35 
+       L 83 19 
+       C 85 16, 89 15, 90 18 
+       L 100 44 
+       C 108 58, 108 82, 98 96 
+       C 86 110, 42 110, 30 96 
+       C 20 82, 20 58, 28 44 Z"
+    fill="url(#unicatGradient)"
+  />
+
+  <!-- Inner Left Ear -->
+  <path d="M 38 28 L 33 44 L 46 39 Z" fill="url(#earAccent)" opacity="0.9" />
+
+  <!-- Inner Right Ear -->
+  <path d="M 90 28 L 82 39 L 95 44 Z" fill="url(#earAccent)" opacity="0.9" />
+
+  <!-- Cat Cheeks & Muzzle Base (Dark Face Mask) -->
+  <path
+    d="M 36 54
+       C 36 44, 46 42, 64 42
+       C 82 42, 92 44, 92 54
+       C 92 78, 86 94, 64 94
+       C 42 94, 36 78, 36 54 Z"
+    fill="#111318"
+  />
+
+  <!-- Cat Eyes: Sleek Intelligent Feline Arcs -->
+  <path d="M 44 60 C 47 55, 53 55, 56 60 C 53 62, 47 62, 44 60 Z" fill="#a8c7fa" />
+  <circle cx="50" cy="59" r="2.2" fill="#ffffff" />
+
+  <path d="M 72 60 C 75 55, 81 55, 84 60 C 81 62, 75 62, 72 60 Z" fill="#a8c7fa" />
+  <circle cx="78" cy="59" r="2.2" fill="#ffffff" />
+
+  <!-- Cat Nose -->
+  <polygon points="64,68 61,72 67,72" fill="#ff94b8" />
+
+  <!-- Cat Whiskers -->
+  <path d="M 30 68 L 44 70 M 28 75 L 43 74" stroke="#a8c7fa" stroke-width="1.8" stroke-linecap="round" opacity="0.6" />
+  <path d="M 98 68 L 84 70 M 100 75 L 85 74" stroke="#a8c7fa" stroke-width="1.8" stroke-linecap="round" opacity="0.6" />
+
+  <!-- Sleek Golden Cash / Coin Token in Muzzle -->
+  <circle cx="64" cy="83" r="7" fill="url(#coinGold)" stroke="#ffd56b" stroke-width="1.2" />
+  <text x="64" y="86.5" font-family="system-ui, -apple-system, sans-serif" font-size="8" font-weight="900" text-anchor="middle" fill="#5c3800">C</text>
+</svg>

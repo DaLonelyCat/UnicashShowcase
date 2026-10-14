@@ -1,0 +1,74 @@
+[
+  {
+    "id": "mat-arabica",
+    "name": "Arabica House Blend",
+    "unit": "g",
+    "stock": 1200,
+    "costPerUnit": 150,
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "mat-milk",
+    "name": "Fresh Barista Milk",
+    "unit": "ml",
+    "stock": 2400,
+    "costPerUnit": 25,
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "mat-caramel",
+    "name": "Artisan Caramel Syrup",
+    "unit": "ml",
+    "stock": 680,
+    "costPerUnit": 120,
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "mat-matcha",
+    "name": "Ceremonial Matcha Powder",
+    "unit": "g",
+    "stock": 420,
+    "costPerUnit": 200,
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "mat-cup",
+    "name": "Eco Paper Cup & Lid",
+    "unit": "pcs",
+    "stock": 165,
+    "costPerUnit": 850,
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "mat-croissant",
+    "name": "Pre-baked Butter Croissant",
+    "unit": "pcs",
+    "stock": 32,
+    "costPerUnit": 9000,
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "mat-cinnamon",
+    "name": "Artisan Cinnamon Roll",
+    "unit": "pcs",
+    "stock": 28,
+    "costPerUnit": 10000,
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "mat-brownie",
+    "name": "Chocolate Fudge Brownie",
+    "unit": "pcs",
+    "stock": 24,
+    "costPerUnit": 8000,
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "prod-latte",
+    "name": "Velvet Caffe Latte",
+    "category": "Coffee",
+    "categories": [
+      "Coffee"
+    ],
+    "cost": 7500,
+    "price": 28000,
+    "stock": 45,
+    "minStock": 5,
+    "isActive": true,
+    "description": "Velvety espresso with steamed whole milk",
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "prod-macchiato",
+    "name": "Iced Caramel Macchiato",
+    "category": "Coffee",
+    "categories": [
+      "Coffee"
+    ],
+    "cost": 9000,
+    "price": 32000,
+    "stock": 40,
+    "minStock": 5,
+    "isActive": true,
+    "description": "Chilled milk and vanilla topped with espresso and caramel drizzle",
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "prod-espresso",
+    "name": "Signature Espresso",
+    "category": "Coffee",
+    "categories": [
+      "Coffee"
+    ],
+    "cost": 4500,
+    "price": 18000,
+    "stock": 60,
+    "minStock": 5,
+    "isActive": true,
+    "description": "Rich double shot of Arabica House Blend",
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "prod-matcha",
+    "name": "Kyoto Matcha Latte",
+    "category": "Non-Coffee",
+    "categories": [
+      "Non-Coffee"
+    ],
+    "cost": 8000,
+    "price": 30000,
+    "stock": 35,
+    "minStock": 5,
+    "isActive": true,
+    "description": "Uji matcha whisked with fresh barista milk",
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "prod-croissant",
+    "name": "Butter Croissant",
+    "category": "Pastry",
+    "categories": [
+      "Pastry"
+    ],
+    "cost": 9000,
+    "price": 24000,
+    "stock": 32,
+    "minStock": 5,
+    "isActive": true,
+    "description": "Flaky golden laminated French pastry",
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "prod-cinnamon",
+    "name": "Artisan Cinnamon Roll",
+    "category": "Pastry",
+    "categories": [
+      "Pastry"
+    ],
+    "cost": 10000,
+    "price": 26000,
+    "stock": 28,
+    "minStock": 5,
+    "isActive": true,
+    "description": "Warm spiced roll topped with cream cheese glaze",
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  },
+  {
+    "id": "prod-brownie",
+    "name": "Chocolate Fudge Brownie",
+    "category": "Pastry",
+    "categories": [
+      "Pastry"
+    ],
+    "cost": 8000,
+    "price": 22000,
+    "stock": 24,
+    "minStock": 5,
+    "isActive": true,
+    "description": "Decadent dark cocoa baked slice",
+    "createdAt": "2026-10-01T08:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z"
+  }
+]
